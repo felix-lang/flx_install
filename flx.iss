@@ -34,7 +34,7 @@ Name: modifypath; Description: Add application directory to your path
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "win32binary\build\release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "win32binary\build\release\*"; Excludes: ".DS_Store"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\Felix Web Server"; Filename: "{app}\host\bin\flx_web.exe"
