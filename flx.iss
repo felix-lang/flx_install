@@ -15,7 +15,7 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={pf}\{#MyAppName}
+DefaultDirName={sd}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=.
@@ -26,6 +26,7 @@ DisableWelcomePage=no
 ChangesEnvironment=yes
 ArchitecturesAllowed=x64
 ArchitecturesInstallIn64BitMode=x64
+UsePreviousAppDir=no
 
 [Tasks]
 Name: modifypath; Description: Add application directory to your path
